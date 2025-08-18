@@ -1,6 +1,7 @@
 package in.leetProblem;
 
 
+
 public class AddDigits {
     public static int addDigits(int num){
         if(num==0){

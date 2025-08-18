@@ -1,5 +1,4 @@
-
-
+package in.leetCode2;
 public class UglyNumber {
     public static boolean uglyNumber(int number) {
         if(number<=0){
