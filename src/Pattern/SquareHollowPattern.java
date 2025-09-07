@@ -1,0 +1,20 @@
+package in.Pattern;
+
+public class SquareHollowPattern {
+    public static void squareHollowPattern(int n) {
+        for (int i=0;i<=n; i++){
+            for (int j=0; j<n; j++){
+                if (i==0 || i==n || j==0 || j==n-1){
+                    System.out.print("* ");
+                }else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    public static void main(String[] args) {
+            int n=5;
+        squareHollowPattern(n);
+    }
+}
