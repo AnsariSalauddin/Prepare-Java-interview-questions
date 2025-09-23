@@ -1,8 +1,7 @@
 package in.reverse;
 
-package in.reverse;
 
-public class AddBinary {
+public class addBinary {
     public static String addBinary(String str, String str1){
         int i=str.length()-1;
         int j=str1.length()-1;
